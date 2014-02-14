@@ -328,7 +328,7 @@ html {
 }
 body {
   
-  font-family: "museo-sans","Lucida Grande","Lucida Sans","Tahoma",sans-serif;
+  font-family: "Tahoma";
   font-size: 15px;
   line-height: 1.42857143;
   color: #ebebeb;
@@ -793,7 +793,7 @@ pre code {
   margin-left: auto;
   
   height: 100%;
-  background-image: url(/static/img.png) ;
+  background-image: url(/static/pic.png) ;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
