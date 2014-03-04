@@ -33,13 +33,13 @@ summary {
 /* custom css------------------------------- */
 
 #sidebar{
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
   float: left;
-  background-color: rgba(16, 34, 120, 0.2);
+  background-color: rgba(16, 34, 120, 0.2899);
   width: 33%;
   height: 600px;
-  text-align: right;
+  text-align: left;
   border-bottom-color: rgb(78, 93, 108);
   
 
@@ -340,7 +340,8 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #df691a;
+  color: rgb(22, 159, 29);
+  font-weight: bold;
   text-decoration: none;
 }
 a:hover,
@@ -789,7 +790,7 @@ pre code {
   margin-left: auto;
   
   height: 100%;
-  background-image: url(/static/pic.png) ;
+  background-image: url(/static/sample.png) ;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
