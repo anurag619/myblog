@@ -73,7 +73,12 @@ summary {
 }
 
 .icons{
-  padding-left: 190px;
+  padding-left: 10px;
+}
+
+.social{
+  padding-top: 50px;
+  padding-right: 35px;
 }
 
 img{
