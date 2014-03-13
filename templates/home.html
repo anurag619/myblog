@@ -19,20 +19,7 @@
         <!-- Bootstrap core CSS -->
         <link  href="{{ url_for('static', filename='bootstrap.css') }}"  rel="stylesheet">
         <link rel="shortcut icon" href="{{ url_for('static', filename='p.ico') }}">
-        <script type="text/javascript" src="{{ url_for('static', filename='bootstrap.min.js') }}"></script>
-
-
-         <!-- bootbox code -->
-            <script type="text/javascript" src="{{ url_for('static', filename='bootbox.min.js') }}"></script>
-            <script>
-            $(document).on("click", ".alert", function(e) {
-            bootbox.alert("mail me : anurag3rdsep@gmail.com", function() {
-            console.log("Alert Callback");
-            });
-            });
-            </script>
-
-            <!-- bootbox code ends -->
+        
 
         </head>
     
@@ -96,10 +83,27 @@
 
             <div id="content" class="two-third">
 
-
+               <center> this section is under construction <blink>|</blink></center>
               
 
             </div> <!-- container ends -->
+
+
+    <script type="text/javascript" src="{{ url_for('static', filename='bootstrap.min.js') }}"></script>
+    <!-- bootbox code -->
+    <script type="text/javascript" src="{{ url_for('static', filename='bootbox.min.js') }}"></script>
+            <script>
+            $(document).on("click", ".alert", function(e) {
+            bootbox.alert("mail me : anurag3rdsep@gmail.com", function() {
+            console.log("Alert Callback");
+            });
+            });
+            </script>
+
+            <!-- bootbox code ends -->
+        <script type="text/javascript">
+          setInterval(function(){ $('blink').each( function(){ $(this).css('visibility' , $(this).css('visibility') === 'hidden' ? '' : 'hidden') } ); }, 250);
+        </script>
 
     </body>
 
