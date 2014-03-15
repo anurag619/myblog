@@ -72,8 +72,9 @@ summary {
   
 }
 
-.icons{
-  padding-left: 10px;
+current{
+  font-size: 25px;
+  font-style: bold;
 }
 
 .social{
