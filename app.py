@@ -9,7 +9,7 @@ app.secret_key= '\ybf\xb10\x94au\x2f\xf9\se2\x3f\x93\x26(\xdf\xe4\xaf\x1f\x86k\x
 @app.route('/')
 def index():
 	
-	return render_template('home.html')
+	return render_template('index.html')
 
 
 
