@@ -40,9 +40,8 @@ h2{
 	font-size: 30px;
 }
 
-.4u{
-	margin: 2px 5px 5px 2px !important;
-	border-bottom: 1px #ccc;
+.button{
+	height: 75px;
 }
 
 
