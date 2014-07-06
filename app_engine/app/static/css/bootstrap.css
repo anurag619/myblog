@@ -443,7 +443,7 @@ h1,
 }
 h2,
 .h2 {
-  font-size: 30px;
+  font-size: 34px;
 }
 h3,
 .h3 {
@@ -4372,7 +4372,6 @@ a.list-group-item.active > .badge,
 }
 .jumbotron {
   padding: 30px;
-  margin-bottom: 30px;
   color: inherit;
   background-color: #eee;
 }
